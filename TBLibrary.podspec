@@ -28,17 +28,13 @@ Pod::Spec.new do |s|
   s.source           = { :git => 'https://github.com/yyakun/TBLibrary.git', :tag => '0.0.2'}
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '9.0'
+  s.ios.deployment_target = '8.0'
 
   s.source_files = 'TBLibrary/Classes/**/*'
   
   # s.resource_bundles = {
   #   'TBLibrary' => ['TBLibrary/Assets/*.png']
   # }
-
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
    s.requires_arc = true
    s.dependency "AFNetworking"
    s.dependency "MBProgressHUD"
